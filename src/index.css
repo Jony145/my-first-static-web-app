@@ -12,6 +12,7 @@
 .Navbar a {
     color:white;
     padding: 5px;
+    margin-left: 10px;
 }
 
 .Navbar a:hover {
