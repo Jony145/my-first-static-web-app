@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './Home';
-import {  Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 
 function App() {
 
@@ -13,15 +13,17 @@ function App() {
         <nav className='Navbar'>
           <h1>Sectional property management App</h1>
           <ul className='Links'>
-            <a href='/'>Home</a>
-            <a href='/Fines'>Fines</a>
+            <Link to='/'>Home</Link>
+            <Link to='/Fines'>Fines</Link>
           </ul>
         </nav>
 
         {/* Bellow is the page content */}
         <section className='Page'>
           <Routes>
-            <Route path='/' element={<Home></Home>}> 
+            <Route path='/' element={<Home></Home>}>
+            </Route>
+            <Route path='/Fines' element={<Fines/>}>
             </Route>
           </Routes>
         </section>
