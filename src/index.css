@@ -1,7 +1,7 @@
 .Navbar {
     display: flex;
     margin: 0 auto;
-    color: black;
+    background-color: black;
     align-items: center;
 }
 
@@ -15,4 +15,8 @@
 
 .Navbar a:hover {
     color:red;
+}
+
+.Fines h1 {
+    color: black;
 }
