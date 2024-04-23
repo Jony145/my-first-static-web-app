@@ -4,7 +4,10 @@ function App() {
   
 
   return (
-    <Home/>
+    <article>
+      <Home/>
+    </article>
+    
   );
 }
 
