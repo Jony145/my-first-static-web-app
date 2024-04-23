@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './Home';
-import Fines from './Fines'
+import Fines from './Fines';
 import { Link, Route, Routes } from 'react-router-dom';
 
 function App() {
