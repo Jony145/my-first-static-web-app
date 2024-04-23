@@ -12,7 +12,9 @@ const Home = () => {
   });
 
   return (
-    <div>{data}</div>
+    <section>
+        <p>{data}</p>
+    </section>
   );
 
 }
