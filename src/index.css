@@ -1,0 +1,18 @@
+.Navbar {
+    display: flex;
+    margin: 0 auto;
+    color: black;
+    align-items: center;
+}
+
+.Navbar h1 {
+    color: white;
+}
+
+.Navbar a {
+    color:white;
+}
+
+.Navbar a:hover {
+    color:red;
+}

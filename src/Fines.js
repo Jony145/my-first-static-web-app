@@ -2,7 +2,7 @@ const Fines = () => {
 
     return(
         <article>
-            
+            <p>It's working </p>
         </article>
     );
 

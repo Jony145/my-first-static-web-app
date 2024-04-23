@@ -6,13 +6,13 @@ function App() {
 
   return (
     <article className='App'>
-      <navbar>
+      <nav className='Navbar'>
         <h1>Sectional property management App</h1>
         <ul>
           <a href='/'>Home</a>
           <a href='/Fines'>Fines</a>
         </ul>
-      </navbar>
+      </nav>
 
       <section className='Page'><Home/></section>
       
