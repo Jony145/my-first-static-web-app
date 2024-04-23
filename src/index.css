@@ -11,6 +11,7 @@
 
 .Navbar a {
     color:white;
+    padding: 5px;
 }
 
 .Navbar a:hover {
@@ -19,4 +20,8 @@
 
 .Fines h1 {
     color: black;
+}
+
+.Links {
+    margin-left: auto;
 }

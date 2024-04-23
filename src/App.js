@@ -8,7 +8,7 @@ function App() {
     <article className='App'>
       <nav className='Navbar'>
         <h1>Sectional property management App</h1>
-        <ul>
+        <ul className='Links'>
           <a href='/'>Home</a>
           <a href='/Fines'>Fines</a>
         </ul>
