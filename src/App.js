@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './Home';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
 
@@ -20,11 +20,11 @@ function App() {
 
         {/* Bellow is the page content */}
         <section className='Page'>
-          <Switch>
+          <Routes>
             <Route path='/'> 
               <Home></Home>
             </Route>
-          </Switch>
+          </Routes>
         </section>
         
       </article>
