@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Home from './Home';
 
 function App() {
   const [data, setData] = useState('');
@@ -11,7 +12,11 @@ function App() {
   });
 
   return (
+    <div>
     <div>{data}</div>
+    <Home/>
+    </div>
+
   );
 }
 
