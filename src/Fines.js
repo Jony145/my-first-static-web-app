@@ -1,3 +1,4 @@
+import React from "react";
 const Fines = () => {
     //Fetch the user's fines and store them in an array of objects
 
