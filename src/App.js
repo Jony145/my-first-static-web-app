@@ -1,14 +1,14 @@
-
+import React, { useState, useEffect } from 'react';
 
 function App() {
-  let data;
+  const [data, setData] = useState('');
 
-  
+  useEffect(() => {
     (async function () {
       const { text } = await( await fetch(`/api/message`)).json();
-      data = text;
+      setData(text);
     })();
-
+  });
 
   return (
     <div>{data}</div>
