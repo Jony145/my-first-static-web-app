@@ -6,9 +6,9 @@ function App() {
 
 
   return (
-    <Router>
-      {/* Bellow is the app which is an article */}
       <article className='App'> 
+      {/* above is the app which is an article */}
+
       {/* this is the navbar which is always there */}
         <nav className='Navbar'>
           <h1>Sectional property management App</h1>
@@ -21,14 +21,12 @@ function App() {
         {/* Bellow is the page content */}
         <section className='Page'>
           <Routes>
-            <Route path='/'> 
-              <Home></Home>
+            <Route path='/' element={<Home></Home>}> 
             </Route>
           </Routes>
         </section>
         
       </article>
-    </Router>
   );
 }
 
